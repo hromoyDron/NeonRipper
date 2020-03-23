@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BombBullet : Bullet
 {
-    [SerializeField] private float explosionRadius = 5;
+    [SerializeField] private float explosionRadius;
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
