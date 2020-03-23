@@ -37,8 +37,6 @@ public class TankWeapon : MonoBehaviour
 
         if(WeaponChanged != null)
             WeaponChanged(this, GetCurrentWeaponName());
-
-        Debug.Log(_weapons.Count);
     }
 
     public void Attack()
